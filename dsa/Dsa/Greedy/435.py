@@ -10,6 +10,7 @@ class Solution:
                 prevEnd = end
             else:
                 res += 1
-                prevEnd = min(end, prevEnd)
+                prevEnd = min(prevEnd, end)
         return res
+
         
